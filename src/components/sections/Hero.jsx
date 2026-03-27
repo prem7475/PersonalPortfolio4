@@ -65,7 +65,6 @@ export default function Hero() {
             <div className="h-24 w-24 overflow-hidden rounded-full border border-white/15 shadow-xl hidden sm:block">
               <img src="/photo.png" alt="Nishika Sadane" className="h-full w-full object-cover" />
             </div>
-            <div className="text-sm text-white/70">Profile photo loaded from <code>/photo.png</code> in <code>public</code>.</div>
           </div>
 
           <div className="mt-14 grid gap-4 sm:grid-cols-3">
