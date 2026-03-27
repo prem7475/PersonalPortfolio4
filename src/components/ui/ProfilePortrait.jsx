@@ -12,7 +12,7 @@ const sizeMap = {
 export default function ProfilePortrait({
   className,
   size = "lg",
-  src = "/profile.png",
+  src = "/photo.png",
   label = "OPEN TO WORK",
 }) {
   const classes = useMemo(() => sizeMap[size] ?? sizeMap.lg, [size]);
