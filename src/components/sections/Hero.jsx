@@ -7,7 +7,7 @@ import Particles from "../ui/Particles";
 export default function Hero() {
   return (
     <section
-      className="relative grid min-h-[100svh] place-items-center overflow-hidden"
+      className="relative grid min-h-[110svh] place-items-center overflow-hidden"
       id="top"
     >
       <div className="absolute inset-0">
@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black" />
       </div>
 
-      <div className="container-x relative z-10 pt-16 pb-16 sm:pt-24 md:pt-36 md:pb-28">
+      <div className="container-x relative z-10 pt-16 pb-24 sm:pt-24 md:pt-36 md:pb-40">
         <motion.div
           data-hero-content
           initial={{ opacity: 0, y: 16 }}
