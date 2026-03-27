@@ -7,7 +7,7 @@ import Particles from "../ui/Particles";
 export default function Hero() {
   return (
     <section
-      className="relative grid min-h-[110svh] place-items-center overflow-hidden"
+      className="sticky top-0 z-[40] grid min-h-[110svh] place-items-center overflow-hidden"
       id="top"
     >
       <div className="absolute inset-0">
